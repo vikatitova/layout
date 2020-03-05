@@ -143,6 +143,37 @@ footer .container-fluid:last-child .row{
     margin-bottom: 1rem;
 }
 @media (max-width: 575.98px) { 
+    header{
+        display: none;
+    }
+    .burgerspan{
+        background-color: #000000;
+    position: absolute;
+    top: 10px;
+    left: 88%;
+    width: 10%;
+    height: 50px;
+    opacity: 0.3;
+    }
+    .burger-nav{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background: url(img/burgerwhite.png) center center no-repeat;
+        background-size: 55%;
+        cursor: pointer;
+        padding: 0;
+        height: 50px;
+            }
+    .burgerspan:hover{
+        background-color: #646cfd;
+        opacity: 1;
+    }
+    body{
+        padding-left: 0;
+    }
+
           .grid {
         display: grid;
       
@@ -173,29 +204,28 @@ footer .container-fluid:last-child .row{
     header{
         display: none;
     }
+    .burgerspan{
+        background-color: rgba(0, 0, 0, .4);
+    position: absolute;
+    top: 10px;
+    left: 88%;
+    width: 10%;
+    height: 60px;
+    }
     .burger-nav{
         position: absolute;
-        top: 30px;
-        left:83%;
-        width: 9%;
+        top: 0;
+        left: 0;
+        width: 100%;
         background: url(img/burgerwhite.png) center center no-repeat;
-        background-size: 80%;
+        background-size: 55%;
         cursor: pointer;
         padding: 0;
         height: 60px;
-    }
-    .burgerspan{
-        background-color: #000000;
-        position: absolute;
-        top: 30px;
-        left:83%;
-        width: 9%;
-        height: 60px;
-        opacity: 0.5;
-    }
+        opacity: 1;
+            }
     .burgerspan:hover{
         background-color: #646cfd;
-        opacity: 0.5;
     }
     body{
         padding-left: 0;
@@ -203,7 +233,7 @@ footer .container-fluid:last-child .row{
     .grid {
         display: grid;
       
-        grid-template-columns: repeat(4, minmax(150px, 300px));
+        grid-template-columns: repeat(4, minmax(100px, 300px));
         grid-template-rows: repeat(3, auto);
       
         grid-gap: 10px;
