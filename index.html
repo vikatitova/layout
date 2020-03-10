@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
@@ -15,8 +16,8 @@
        <a href="#"> <img src="img/logo-impreza.png" alt=""></a>
        </div>
        <nav class="header_navigation">
-           <ul>
-            <li>
+           <ul class="mainmenu">
+            <li id="button-submenu">
                 <a href="#"> Portfolio</a>
                 <ul class="submenu">
                     <li>Project – Web Design</li>
@@ -24,10 +25,10 @@
                     <li>Project – Branding</li>
                 </ul>
             </li>
-            <li>About</li>
-            <li>Services</li>
-            <li>Contact</li>
-            <li>Blog</li>
+            <li><a href="">   About</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href=""> Contact</a></li>
+            <li><a href="">    Blog</a></li>
            </ul>
        </nav>
        <div class="socials">
@@ -42,64 +43,204 @@
            </div>
        </div>
 </div>
+<div class="header_fixedpanel">
+    <ul>
+        <li>
+            <p>See other demos</p>
+            <img src="img/tv white.png" alt="">
+        </li>
+        <li>
+            <p>Test admin area</p>
+            <span>test <br> drive</span>
+        </li>
+        <li>
+            <p>Buy this Theme</p>
+            <img src="img/supermarket (1).svg" alt="">
+        </li>
+        <li>
+            <p>Enable sections copying</p>
+            <img src="img/folder white.png" alt="">
+        </li>
+    </ul>
+</div>
     </header>
   <main>
+      <span id="dark"></span>
    <span class="burgerspan"> <a href="#" class="burger-nav"></a></span>
-   <!-- <a href="#" class="burger-nav"></a>
-   <span class="burgerspan"></span>  -->
-
+   <span class="arrowtotopspan" id="arrowtotopspan"> <a href="#" class="arrowtotop" id="linkToTop"></a></span>
 <div class="container-fluid grid">
-         <div class="grid-item"><img src="img/image-36.jpg" alt=""></div>
-         <div class="grid-item"><img src="img/mark-8-300x300.jpg" alt=""></div>
-         <div class="grid-item bigimg1"><img src="img/andrey-zvyagintsev-dvaBJW5NytI-unsplash.jpg" alt=""></div>
-         <div class="grid-item bigimg2">  <img src="img/ian-dooley-k8OCHhEymME-unsplash.jpg" alt=""></div>
-         <div class="grid-item"><img src="img/josh-calabrese-XXpbdU_31Sg-unsplash-1024x1024.jpg" alt=""></div>
-         <div class="grid-item"><img src="img/daniel-korpai-HyTwtsk8XqA-unsplash-150x150.jpg" alt=""></div>
+         <div class="grid-item">
+                <a href="#"> </a>
+                <img src="img/image-36.jpg" alt="">
+                <div class="grid_text">
+                    <h2>Desktop Design</h2>
+                    <span>Web Design</span>
+                </div>
+             </div>
+         <div class="grid-item">        
+            <a href="#"></a> 
+            <img src="img/mark-8-300x300.jpg" alt="">
+            <div class="grid_text">
+                <h2>Amster App</h2>
+                <span>Mobile Apps</span>
+            </div>
+        </div>
+         <div class="grid-item bigimg1">
+            <a href="#"></a> 
+            <img src="img/andrey-zvyagintsev-dvaBJW5NytI-unsplash.jpg" alt="">
+            <div class="grid_text">
+                <h2>Glasses Mobile</h2>
+                <span>Mobile Apps</span>
+            </div>
+        </div>
+         <div class="grid-item bigimg2">
+            <a href="#"></a> 
+            <img src="img/ian-dooley-k8OCHhEymME-unsplash.jpg" alt="">
+            <div class="grid_text">
+                <h2>Pink Lips</h2>
+                <span>Branding</span>
+            </div>
+        </div>
+         <div class="grid-item">        
+            <a href="#"></a> 
+            <img src="img/josh-calabrese-XXpbdU_31Sg-unsplash-1024x1024.jpg" alt="">
+            <div class="grid_text">
+                <h2>Green Leaves</h2>
+                <span>Branding</span>
+            </div>
+        </div>
+         <div class="grid-item">        
+            <a href="#"></a> 
+            <img src="img/daniel-korpai-HyTwtsk8XqA-unsplash-150x150.jpg" alt="">
+            <div class="grid_text">
+                <h2>Colorfull Design</h2>
+                <span>Mobile Apps</span>
+            </div>
+        </div>
 </div>
 <div class="container-fluid grid">
-<div class="grid-item"><img src="img/bubble.jpg" alt=""></div>
-<div class="grid-item"><img src="img/paul-green-tvk4EKq9m_w-unsplash-1024x1024.jpg" alt=""></div>
-<div class="grid-item bigimg1"><img src="img/sharon-mccutcheon-TZZwC_xsClY-unsplash-300x300.jpg" alt=""></div>
-<div class="grid-item bigimg2"><img src="img/aidan-hancock-EwKkZu18HPo-unsplash-1024x1024.jpg" alt=""></div>
-<div class="grid-item"><img src="img/davisco-5E5N49RWtbA-unsplash-1024x1024.jpg" alt=""></div>
-<div class="grid-item"><img src="img/daniel-cheung-cPF2nlWcMY4-unsplash-1024x1024.jpg" alt=""></div>
+<div class="grid-item">    
+    <a href="#"></a>     
+    <img src="img/bubble.jpg" alt="">
+    <div class="grid_text">
+    <h2>Bubbbles</h2>
+    <span>Branding</span>
+    </div>
+</div>
+<div class="grid-item"> 
+    <a href="#"></a>        
+    <img src="img/paul-green-tvk4EKq9m_w-unsplash-1024x1024.jpg" alt="">
+    <div class="grid_text">
+    <h2>Another Breath</h2>
+    <span>Web Design</span>
+    </div>
+</div>
+<div class="grid-item bigimg1">  
+      <a href="#"></a>
+    <img src="img/sharon-mccutcheon-TZZwC_xsClY-unsplash-300x300.jpg" alt="">
+    <div class="grid_text">
+        <h2>Color Picker</h2>
+        <span>Web Design</span>
+    </div>
+</div>
+<div class="grid-item bigimg2">
+    <a href="#"></a> 
+    <img src="img/aidan-hancock-EwKkZu18HPo-unsplash-1024x1024.jpg" alt="">
+    <div class="grid_text">
+        <h2>Red Border App</h2>
+        <span>Mobile Apps</span>
+    </div>
+</div>
+<div class="grid-item">
+    <a href="#"></a>         
+    <img src="img/davisco-5E5N49RWtbA-unsplash-1024x1024.jpg" alt="">
+    <div class="grid_text">
+    <h2>Blue Orange</h2>
+    <span>Web Design</span>
+    </div>
+</div>
+<div class="grid-item">  
+    <a href="#"></a>       
+    <img src="img/daniel-cheung-cPF2nlWcMY4-unsplash-1024x1024.jpg" alt="">
+    <div class="grid_text">
+    <h2>Grayfull Tweak</h2>
+    <span>Web Design</span>
+    </div>
+</div>
 </div>
 <div class="container-fluid grid">
-<div class="grid-item"><img src="img/luca-bravo-_XnDTTUuWSA-unsplash2.jpg" alt=""></div>
-<div class="grid-item"><img src="img/mae-mu-RguBeaxbH-s-unsplash-150x150.jpg" alt=""></div>
-<div class="grid-item bigimg1"><img src="img/remi-muller-LlHgaeBwYVE-unsplash-300x300.jpg" alt=""></div>
-<div class="grid-item bigimg2"><img src="img/nikolay-tarashchenko-u76CN5rZeOU-unsplash-1024x1024.jpg" alt=""></div>
-<div class="grid-item"><img src="img/annie-spratt-PM4Vu1B0gxk-unsplash-1024x1024.jpg" alt=""></div>
-<div class="grid-item"><img src="img/candid-7YBRhk5NVV8-unsplash-1024x1024.jpg" alt=""></div>
+<div class="grid-item">   
+    <a href="#"></a>            
+    <img src="img/luca-bravo-_XnDTTUuWSA-unsplash2.jpg" alt="">
+    <div class="grid_text">
+        <h2>Holeful</h2>
+        <span>Branding</span>
+        </div>    
+</div>
+<div class="grid-item">        
+    <img src="img/mae-mu-RguBeaxbH-s-unsplash-150x150.jpg" alt="">  
+      <div class="grid_text">
+        <h2>Alpha Design</h2>
+        <span>Web Design</span>
+        </div>
+</div>
+<div class="grid-item bigimg1">
+    <img src="img/remi-muller-LlHgaeBwYVE-unsplash-300x300.jpg" alt="">
+    <div class="grid_text">
+        <h2>Spygrass</h2>
+        <span>Branding</span>
+        </div>    
+</div>
+<div class="grid-item bigimg2">
+    <img src="img/nikolay-tarashchenko-u76CN5rZeOU-unsplash-1024x1024.jpg" alt="">
+    <div class="grid_text">
+        <h2>Coffee Painting</h2>
+        <span>Web Design</span>
+        </div>    
+</div>
+<div class="grid-item">        
+    <img src="img/annie-spratt-PM4Vu1B0gxk-unsplash-1024x1024.jpg" alt="">
+    <div class="grid_text">
+        <h2>Strangest Candid</h2>
+        <span>Mobile App</span>
+        </div>    
+</div>
+<div class="grid-item">        
+    <img src="img/candid-7YBRhk5NVV8-unsplash-1024x1024.jpg" alt="">
+    <div class="grid_text">
+        <h2>CoffeeHead</h2>
+        <span>Branding</span>
+        </div>    
+</div>
 </div>
   </main>  
   <footer>
 <div class="container-fluid">
     <div class="row">
-    <div class="col-lg-4">
+    <div class="col-xl-4">
         <p>
         Work with us</p>
 
-<h5>info@example.com</h5>
+<a class="footer-a">info@example.com</a>
 <p>By sending your personal data to the specified emails you confirm your consent to the processing of personal data.</p>
     </div>
-    <div class="col-lg-4">
+    <div class="col-xl-4">
         <p>Central Office</p>
 
-<h5>+321 123 4567</h5>
+<a class="footer-a"> +321 123 4567</a>
 <p> 1600 Amphitheatre Parkway, Mountain View, CA 94043</p>
     </div>
-    <div class="col-lg-4">
+    <div class="col-xl-4">
        <p> Join the team</p>
 
-<h5> hr@example.com</h5>
+<a class="footer-a"> hr@example.com</a>
 <p> By sending your personal data to the specified emails you confirm your consent to the processing of personal data.</p>
     </div>
     </div>
 </div>
 <div class="container-fluid">
 <div class="row">   
-     <p>© 2020 <a href=""> Impreza Theme</a> by UpSolution</p>
+     <p>© 2020 <a href="" class="footer-link"> Impreza Theme</a> by UpSolution</p>
     </div>
 </div>
   </footer>
