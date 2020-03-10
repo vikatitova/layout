@@ -36,6 +36,7 @@ const scrollToAnchor = () => {
     document.querySelector("main").classList.add("darker-main");
     document.querySelector("#dark").classList.add("darker-span");
     document.querySelector(".burgerspan").style.cssText = `z-index: 99`;
+    document.body.classList.add("unscrollingbody");
   });
   document.querySelector("#dark").addEventListener("click",()=>{
     if(document.querySelector("#dark").classList.contains("darker-span")){
@@ -43,6 +44,7 @@ const scrollToAnchor = () => {
   document.querySelector("main").classList.remove("darker-main");
   document.querySelector("#dark").classList.remove("darker-span");
   document.querySelector(".burgerspan").style.cssText = `z-index: 1000000`;
+  document.body.classList.remove("unscrollingbody");
 }
   });
 
